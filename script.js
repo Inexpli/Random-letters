@@ -26,3 +26,7 @@ function RunTheRandom() {
         document.getElementById("res").innerHTML = n;
     }
 }
+
+function Uppercase() {
+    document.getElementById("res").innerHTML = n.toUpperCase();
+}

@@ -9,12 +9,17 @@
     <div class="container">
         <h1>Random letters</h1>
         <p>Enter the number of characters to generate</p>
-        <input type="number" id="number" min="1" max="20">
-        <button type="button" onclick="RunTheRandom()" id="generate">Generate</button>
-        <button type="button" onclick="Clear()" id="clear">Clear</button>
-        <div class="resault">
-            <h3 id="res"></h1>
-        </div>
+        <form></form>
+            <input type="number" placeholder="0-20" id="number" min="1" max="20">
+            <button type="button" onclick="RunTheRandom()" id="generate">Generate</button>
+            <button type="button" onclick="Clear()" id="clear">Clear</button>
+            <div class="upper">
+                <button type="button" onclick="Uppercase()" id="upperbutton">Transform to Uppercase</button>
+            </div>
+            <div class="resault">
+                <h3 id="res"></h1>
+            </div>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
