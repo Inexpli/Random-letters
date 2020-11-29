@@ -1,2 +1,2 @@
-# Random nickname
+# Random letters
  
