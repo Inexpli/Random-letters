@@ -1,7 +1,7 @@
 .container {
     background-color: bisque;
-    width: 90%;
-    min-height: 700px;
+    width: auto;
+    height: 730px;
     margin-right: auto;
     margin-left: auto;
     border: 3px solid gray;
@@ -12,21 +12,14 @@
 }
 
 .resault {
-    width: 70%;
-    min-height: 70px;
-    background-color: white;
-    margin-left: auto;
+    background-color: gold;
+    width: 50%;
+    height: auto;
+    text-align: center;
     margin-right: auto;
-    margin-top: 30px;
-    border: 2px solid salmon;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-}
-
-h3 {
-    margin: 0;
+    margin-left: auto;
+    margin-top: 50px;
+    border: 5px solid salmon;
 }
 
 #generate {
@@ -87,6 +80,11 @@ p {
     .resault {
         margin-bottom: 10px;
     }
+
+    .container {
+        height: 850px;
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 950px)
@@ -112,4 +110,19 @@ p {
     #res {
         font-size: 2.4rem;
     }
+}
+
+#res {
+    min-width: 70px;
+    overflow-x: scroll;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    min-height: 70px;
+}
+
+#copy {
+    width: 250px;
+    min-height: 40px;
+    background-color: lightblue;
+    font-size: 1rem;
 }

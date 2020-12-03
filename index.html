@@ -4,22 +4,26 @@
     <meta charset="utf-8">
     <title>Random nickname</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Random letters</h1>
         <p>Enter the number of characters to generate</p>
-        <form></form>
-            <input type="number" placeholder="0-20" id="number" min="1" max="20">
-            <button type="button" onclick="RunTheRandom()" id="generate">Generate</button>
-            <button type="button" onclick="Clear()" id="clear">Clear</button>
-            <div class="upper">
-                <button type="button" onclick="Uppercase()" id="upperbutton">Transform to Uppercase</button>
+        <input type="number" placeholder="0-999" id="number" min="1" max="999">
+        <button type="button" onclick="RunTheRandom()" id="generate">Generate</button>
+        <button type="button" onclick="Clear()" id="clear">Clear</button>
+        <div class="upper">
+            <button type="button" onclick="Uppercase()" id="upperbutton">Transform to Uppercase</button>
+            <button type="button" id="copy" onclick="Select()">Select text</button>
+        </div>
+        <div class="resault">
+            <div id="res">
+                
             </div>
-            <div class="resault">
-                <h3 id="res"></h1>
-            </div>
-        </form>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
