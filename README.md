@@ -1,3 +1,3 @@
 # Random letters
  
-https://jezjakub.github.io/Random-letters/
+https://inexpli.github.io/Random-letters/
